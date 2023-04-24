@@ -1,0 +1,199 @@
+.Cart {
+    background-color: #f5f5f5;
+    padding: 0 200px 50px 200px;
+}
+
+.RoomInfo {
+    background: #fff;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+    margin-bottom: 8px;
+}
+
+.TitleName {
+    display: inline;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 13px;
+    line-height: 1.4;
+}
+
+.Address {
+    margin-top: 8px;
+}
+
+.Address span {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.RoomType {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+.Facilities {
+    margin-top: 8px;
+    display: flex;
+}
+
+.Fac_text {
+    display: flex;
+    align-items: center;
+}
+
+.Fac_text span {
+    font-size: 12px;
+    margin-right: 16px;
+}
+
+.GuestInfo {
+    margin-bottom: 8px;
+    padding: 24px;
+    background: #fff;
+}
+
+.Duration {
+    border: 0;
+    padding: 0 0 16px;
+    display: flex;
+    line-height: 18px;
+}
+
+.Date {
+    border-bottom: 1px solid #ced2d9;
+    cursor: pointer;
+}
+
+.Text {
+    color: #455873;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.Time {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.Length {
+    align-self: center;
+    flex: none;
+    width: 80px;
+    padding: 0;
+    margin: 0 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.LastNum {
+    color: #f5594a;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0;
+    margin-top: 14px;
+}
+
+.Guest_title h3 {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.Remind {
+    color: #8592a6;
+    font-size: 12px;
+    line-height: 18px;
+    padding-top: 3px;
+    margin-bottom: 20px;
+}
+
+.GuestDetail {
+    margin-bottom: 20px;
+    width: 348px;
+}
+
+.GuestText {
+    display: block;
+    padding: 3px 0;
+    line-height: 16px;
+}
+
+input {
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid #ced2d9;
+    font-size: 15px;
+    padding: 5px 0;
+}
+
+.ArrivalTime {
+    margin-bottom: 8px;
+    padding: 24px;
+    background: #fff;
+}
+
+.Content {
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 12px;
+    margin-bottom: 10px;
+}
+
+.Input {
+    width: 106px;
+    border-bottom: 1px solid #ced2d9;
+}
+
+.Pay {
+    display: flex;
+    margin: 10px 0;
+    padding: 24px;
+    background: #fff;
+}
+
+.Pay_Price {
+    font-size: 12px;
+}
+
+.Pay_Price span {
+    color: #287dfa;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 53px;
+}
+
+.Pay_Btn {
+    padding: 16px 24px;
+    line-height: 1.3;
+    font-weight: 600;
+    background: #ff9500;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.Return {
+    cursor: pointer;
+    display: flex;
+    color: #287dfa;
+}
+
+.Return_Text {
+    padding-left: 10px;
+    font-size: 13px;
+}
+
+.mb0 {
+    margin-bottom: 0;
+}
+
+.Cart :global(.ant-form-item-explain) {
+    position: absolute;
+    top: 100%;
+    left: 0;
+}

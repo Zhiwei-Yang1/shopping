@@ -1,0 +1,27 @@
+.List {
+    padding: 0 60px;
+}
+
+.Header {
+    display: flex;
+    border-top: 3px solid rgb(245, 247, 250);
+    border-bottom: 3px solid rgb(245, 247, 250);
+    padding: 10px 0;
+    justify-content: center;
+}
+
+.Blue {
+    color: rgb(40, 125, 250);
+}
+
+.Sort {
+    font-weight: 600;
+    font-size: 16px;
+    border-right: 2px solid rgb(218, 223, 230);
+    padding: 0 32px;
+    cursor: pointer;
+}
+
+.Sort:last-child {
+    border: 0;
+}

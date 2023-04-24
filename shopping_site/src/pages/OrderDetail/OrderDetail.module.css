@@ -1,0 +1,64 @@
+.hotelDetail {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f7fa;
+    margin: 0 auto;
+    min-width: 1050px;
+}
+
+.hotelDetail_Body {
+    margin-top: 5px;
+    background-color: #fff;
+}
+
+.hotelDetail_Body_Title {
+    width: 100%;
+    margin-bottom: 5px;
+    z-index: 999;
+}
+
+.Fixed {
+    position: fixed;
+    top: 0;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.RoomClassify {
+    display: flex;
+    padding: 0;
+    justify-content: flex-start;
+}
+
+.RoomClassify li {
+    border-left: 2px solid rgb(218, 223, 230);
+    margin: 5px 0;
+    width: 160px;
+}
+
+.Options {
+    display: flex;
+    padding: 0;
+}
+
+.Options li {
+    margin-right: 20px;
+}
+
+.hotelDetail_RoomList {
+    background-color: #f5f7fa;
+}
+
+.Upbtn {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #287dfa;
+    text-align: center;
+    line-height: 40px;
+}
+
+.tag :global(.anticon) {
+    vertical-align: baseline;
+}

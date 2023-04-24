@@ -1,0 +1,13 @@
+.Icons {
+    padding: 0 4px;
+}
+
+.Icon {
+    display: inline-block;
+    background-color: rgb(254, 114, 60);
+    width: 18px;
+    height: 18px;
+    border-radius: 2px;
+    margin-left: 3px;
+    line-height: 18px;
+}

@@ -1,0 +1,87 @@
+.Search {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.Search ul {
+    display: flex;
+}
+
+.Search ul li {
+    list-style: none;
+    display: flex;
+}
+
+.Search ul li:first-child {
+    margin-right: 20px;
+}
+
+.Search ul li:nth-child(n+4) {
+    margin-left: 20px;
+}
+
+.Span {
+    display: block;
+    height: 32px;
+    line-height: 32px;
+}
+
+.Input {
+    width: 150px;
+}
+
+.Table {
+    margin: 50px auto;
+    font-size: 17px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.tr th {
+    height: 39px;
+    text-align: center;
+    border-right: 2px solid rgb(235, 235, 235);
+    font-size: 16px;
+    font-weight: normal;
+    background-color: rgb(242, 242, 242);
+}
+
+.tr th:nth-child(-n+2) {
+    width: 47px;
+}
+
+.tr th:nth-child(3) {
+    width: 69px;
+}
+
+.tr th:nth-child(n+4) {
+    width: 183px;
+}
+
+.tr th:nth-child(7) {
+    width: 103px;
+}
+
+.tr th:last-child {
+    width: 200px;
+    border-right: 0;
+}
+
+.search-btns {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+.table {
+    margin-top: 24px;
+}
+
+.operate {
+    display: flex;
+    justify-content: space-around;
+}
+
+.editor {
+    margin-top: 16px;
+}

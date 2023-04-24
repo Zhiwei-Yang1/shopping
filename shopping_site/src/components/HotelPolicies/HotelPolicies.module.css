@@ -1,0 +1,63 @@
+.Room_Policies {
+    margin-top: 35px;
+    background-color: #fff;
+}
+
+.Title {
+    padding-top: 24px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.Main {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 24px 0;
+}
+
+.Policy_List {
+    display: flex;
+    justify-content: left;
+    padding: 24px 0;
+    border-bottom: 1px solid #dadfe6;
+}
+
+.Left {
+    width: 198px;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+}
+
+.Right {
+    display: flex;
+    flex-flow: column;
+    margin-left: 30px;
+    width: calc(100% - 228px);
+    color: #0f294d;
+}
+
+.Disc {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.Text {
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+}
+
+.Disc span {
+    padding-right: 90px;
+}
+
+.Text img {
+    width: 50px;
+    height: 30px;
+    margin: 0 10px 5px 0;
+}

@@ -1,0 +1,38 @@
+.Categories {
+    background-color: #fff;
+    margin-top: 10px;
+    height: 500px;
+    overflow: scroll;
+}
+
+.Menu {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid lightgray;
+
+}
+
+.List {
+    list-style: none;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.Line {
+    border-bottom: 2px solid lightskyblue;
+}
+
+.MoreOrder {
+    padding: 15px 0;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(0, 134, 246);
+}
+
+.MoreOrder:hover {
+    cursor: pointer;
+}

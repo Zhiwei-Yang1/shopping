@@ -1,0 +1,262 @@
+.Return_btn {
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hotelDetail_head {
+    background-color: #fff;
+    padding: 20px 20px;
+    display: block;
+}
+
+.detailHeadline_container {
+    display: flex;
+}
+
+.detailHeadline_left {
+    position: relative;
+    flex: 3;
+}
+
+.detailHeadline_left h1 {
+    font-size: 20px;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+
+.detailHeadline_left div {
+    font-size: 14px;
+    color: #455873;
+    margin-top: 10px;
+}
+
+.Pic {
+    width: 370px;
+    height: 283px;
+}
+
+.Pic img {
+    width: 100%;
+    height: 100%;
+}
+
+.Pic img:hover {
+    cursor: pointer;
+}
+
+.ul {
+    position: absolute;
+    right: 34px;
+    bottom: -14px;
+    display: flex;
+    width: 240px;
+    height: 292px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+.ul li {
+    padding-right: 11px;
+}
+
+li {
+    list-style: none;
+}
+
+.Pic1 {
+    width: 110px;
+    height: 87px;
+}
+
+.Pic1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.Pic1 img:hover {
+    cursor: pointer;
+}
+
+.detailHeadline_right {
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.Price {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.Price .oldPrice {
+    font-size: 24px;
+    color: #455873;
+    margin-right: 8px;
+    text-decoration: line-through;
+}
+
+.Price .newPrice {
+    font-size: 34px;
+    color: #287dfa;
+    font-weight: 700;
+    text-align: right;
+    padding-right: 100px;
+}
+
+.select {
+    position: absolute;
+    right: 0;
+    top: 18px;
+    padding: 12px 16px;
+    background: #287dfa;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.Comments {
+    padding-bottom: 30px;
+    position: absolute;
+    left: 10px;
+    top: 85px;
+}
+
+.Comment {
+    position: absolute;
+    right: 30px;
+    top: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: right;
+    color: rgb(73, 120, 206);
+    width: 80px;
+    padding-left: 20px;
+}
+
+.CommentNum {
+    margin-top: 5px;
+    font-size: 15px;
+    color: gray;
+    text-align: left;
+    width: 150px;
+    font-weight: 600;
+    color: #287dfa;
+}
+
+.CommentNum:hover {
+    cursor: pointer;
+}
+
+.Score {
+    background-color: rgb(73, 120, 206);
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    width: 65px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 3px;
+}
+
+.Score span {
+    font-weight: normal;
+    font-size: 16px;
+    padding-left: 3px;
+}
+
+.Sum {
+    margin-top: 5px;
+    color: rgb(6, 174, 189);
+}
+
+.CommentText {
+    position: absolute;
+    right: 0;
+    top: 100px;
+    width: 200px;
+    height: 60px;
+    background-color: rgb(245, 249, 255);
+    padding: 5px;
+    color: #4571B2;
+}
+
+.Map {
+    display: flex;
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+}
+
+.MapLeft {
+    width: 98px;
+    height: 98px;
+    margin-left: 10px;
+}
+
+.MapLeft img {
+    width: 100%;
+    height: 100%;
+}
+
+.MapRight {
+    margin-left: 10px;
+}
+
+.MapRightTop {
+    display: flex;
+}
+
+.MapRightTop div {
+    margin-right: 30px;
+    font-size: 18px;
+}
+
+.MapRightMid {
+    margin-top: 10px;
+    font-size: 17px;
+    color: rgb(133, 146, 166);
+}
+
+.MapRightBottom {
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(40, 125, 250);
+}
+
+.Bottom {
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    display: flex;
+}
+
+.ShowAll {
+    font-weight: 600;
+    color: rgb(40, 125, 250);
+    position: absolute;
+    right: -105px;
+}
+
+.ShowAll:hover {
+    cursor: pointer;
+}

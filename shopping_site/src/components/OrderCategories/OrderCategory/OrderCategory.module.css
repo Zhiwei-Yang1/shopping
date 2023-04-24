@@ -1,0 +1,73 @@
+.Category {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 160px;
+    border-bottom: 1px solid rgb(188, 188, 188);
+}
+
+.Low {
+    height: 100px;
+}
+
+.Left {
+    display: flex;
+}
+
+.Icon {
+    background-color: blue;
+    height: 25px;
+    width: 25px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.OrderDetails {
+    margin-left: 15px;
+}
+
+.OrderDetails h1 {
+    margin: 0;
+    font-size: 15px;
+}
+
+.Grey {
+    color: rgb(188, 188, 188);
+}
+
+.Blue {
+    color: rgb(0, 134, 246);
+}
+
+.Details {
+    font-size: 12px;
+}
+
+.Details>div {
+    margin-top: 10px;
+}
+
+.Right {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.Status {
+    font-size: 12px;
+    padding-bottom: 10px;
+
+}
+
+.Payed {
+    font-size: 10px;
+    margin-bottom: 60px;
+}
+
+.Payed span {
+    font-size: 16px;
+    font-weight: 600;
+
+}

@@ -1,0 +1,132 @@
+.UserBgc {
+    background-color: rgb(245, 245, 245);
+    margin: -10px -10px;
+    padding: 10px 10px;
+    min-width: 400px;
+}
+
+header {
+    background-color: #fff;
+}
+
+.Username {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgb(71, 168, 235), rgb(170, 219, 232));
+}
+
+.Img {
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(186, 225, 247);
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    line-height: 56px;
+}
+
+.Triangle {
+    position: absolute;
+    right: -5px;
+    top: 25px;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 15px 40px 15px 0;
+    border-right-color: rgb(142, 203, 239);
+}
+
+.Username img {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
+
+.Username span {
+    font-size: 20px;
+    color: #fff;
+    margin-left: 15px;
+}
+
+.Logout {
+    position: absolute;
+    right: 70px;
+    top: 20px;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+    padding-left: 5px;
+}
+
+.IconBoard {
+    position: absolute;
+    right: 0;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(137, 202, 243);
+    border-radius: 5px;
+}
+
+.IconBoard:hover {
+    cursor: pointer;
+}
+
+.Icon {
+    position: absolute;
+    top: 15px;
+    right: 14px;
+}
+
+.Userprice {
+    display: flex;
+    background-color: #fff;
+}
+
+.Money {
+    position: relative;
+    height: 50px;
+    width: 90px;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.Price {
+    position: absolute;
+    left: 28px;
+    top: 24px;
+}
+
+.Tickets {
+    position: relative;
+    height: 50px;
+    width: 90px;
+    font-size: 10px;
+    text-align: center;
+    padding: 10px 0;
+    color: gray;
+}
+
+.Num {
+    position: absolute;
+    left: 34px;
+    top: 30px;
+    color: blue;
+}
+
+.Btn {
+    line-height: 50px;
+    cursor: pointer;
+    padding-right: 20px;
+    color: rgb(137, 202, 243);
+}
+
+.Categories {
+    margin-top: 10px;
+    background-color: #fff;
+}

@@ -1,0 +1,14 @@
+.tr td {
+    text-align: center;
+    border: 2px solid rgb(235, 235, 235);
+    border-collapse: collapse;
+}
+
+.tr td:last-child {
+    border-left: none;
+}
+
+.Btn {
+    display: flex;
+    justify-content: space-around;
+}

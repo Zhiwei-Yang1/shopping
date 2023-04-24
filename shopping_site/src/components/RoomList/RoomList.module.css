@@ -1,0 +1,142 @@
+.RoomList {
+    display: flex;
+    margin-top: 5px;
+    background-color: #fff;
+    padding: 24px 0;
+}
+
+.RoomList_Left {
+    width: 204px;
+    padding-right: 24px;
+    border-right: 1px solid #DADFE6;
+}
+
+.Img {
+    width: 100px;
+    height: 71px;
+}
+
+.Img img {
+    width: 100%;
+    height: 100%;
+}
+
+.RoomList_Left h1 {
+    margin: 0;
+    padding: 6px 0;
+    font-weight: 600;
+    font-size: 13px;
+    width: 180px;
+}
+
+.Labels {
+    display: flex;
+    margin: -3.5px 0 0;
+    padding: 0 0 7.5px;
+    width: 175px;
+    flex-wrap: wrap;
+}
+
+.Label {
+    font-size: 14px;
+    padding: 0 5px;
+    border-right: 2px solid rgb(209, 213, 227);
+    margin: 2px 0;
+}
+
+.Label:last-child {
+    border: 0;
+}
+
+.RoomList_More {
+    color: #287DFA;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.RoomList_More:hover {
+    cursor: pointer;
+}
+
+.RoomList_Right {
+    width: 909px;
+    margin: 24px 0;
+}
+
+.SaleCard {
+    display: flex;
+    margin-left: -1px;
+    padding: 24px 0 24px 24px;
+    border-bottom: 1px solid #DADFE6;
+}
+
+.Adult {
+    width: 101px;
+    padding-right: 21px;
+}
+
+
+.BedFacility {
+    padding-right: 16px;
+    width: 119px;
+}
+
+.BF_Top {
+    margin-bottom: 6px;
+}
+
+.BF_Top span {
+    font-size: 14px;
+    border-bottom: 1px dotted black;
+    cursor: pointer;
+}
+
+.BF_Bottom {
+    font-size: 14px;
+    border-bottom: 1px dotted black;
+    color: #46AEBD;
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+
+.Policy {
+    padding-right: 30px;
+    width: 160px;
+}
+
+.Policy_Bottom span {
+    font-size: 14px;
+    border-bottom: 1px dotted black;
+    color: #46AEBD;
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+
+.Price {
+    display: flex;
+}
+
+.PriceNum {
+    color: #0086F6;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: right;
+    margin-right: 15px;
+}
+
+.btn {
+    background-color: #FF9500;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 24px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.PayNow {
+    margin-top: 8px;
+    color: #455873;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}

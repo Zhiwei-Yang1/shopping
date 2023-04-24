@@ -1,0 +1,17 @@
+.Search {
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-bottom: 16px;
+}
+
+
+.operate {
+    display: flex;
+    justify-content: space-around;
+}
+
+.search-btns {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+}

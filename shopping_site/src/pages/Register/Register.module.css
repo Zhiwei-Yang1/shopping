@@ -1,0 +1,19 @@
+.Register {
+    margin: 80px auto;
+    position: absolute;
+    width: 700px;
+    height: 500px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Title {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.button {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
